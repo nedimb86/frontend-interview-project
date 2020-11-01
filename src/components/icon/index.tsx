@@ -6,15 +6,17 @@ interface Props {
   className?: Optional<string>;
   name: string;
   isSolid?: boolean;
+  isBrand?: boolean;
 }
 
 const Icon: React.FC<Props> = (props) => {
-  const { name, className, isSolid } = props;
+  const { name, className, isSolid, isBrand } = props;
 
   const rootClass = classnames(
     {
-      fa: !isSolid,
+      fa: !isSolid && !isBrand,
       fas: isSolid,
+      fab: isBrand,
       [`fa-${name.replace('fa-', '')}`]: true,
     },
     className,

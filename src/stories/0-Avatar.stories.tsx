@@ -36,11 +36,11 @@ export const withIcon: React.FC = () => (
     </div>
     <br />
     <div style={{ width: '45px' }}>
-      <Avatar iconKey="salesforce" color="#18a8d8" />
+      <Avatar iconKey="salesforce" color="#18a8d8" isBrandIcon />
     </div>
     <br />
     <div style={{ width: '45px' }}>
-      <Avatar iconKey="magento" color="#c14800" />
+      <Avatar iconKey="magento" color="#c14800" isBrandIcon />
     </div>
     <br />
     <div style={{ width: '32px' }}>
@@ -56,11 +56,11 @@ export const withIcon: React.FC = () => (
     </div>
     <br />
     <div style={{ width: '32px' }}>
-      <Avatar isSmallIcon iconKey="salesforce" color="#18a8d8" />
+      <Avatar isSmallIcon iconKey="salesforce" color="#18a8d8" isBrandIcon />
     </div>
     <br />
     <div style={{ width: '32px' }}>
-      <Avatar isSmallIcon iconKey="magento" color="#c14800" />
+      <Avatar isSmallIcon iconKey="magento" color="#c14800" isBrandIcon />
     </div>
   </div>
 );

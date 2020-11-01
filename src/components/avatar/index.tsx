@@ -13,6 +13,8 @@ interface Props {
   text?: string;
   iconKey?: string;
   isSmallIcon?: boolean;
+  isSolidIcon?: boolean;
+  isBrandIcon?: boolean;
 }
 
 function hslToRgb(h: number, s: number, l: number): Array<number> {
@@ -108,6 +110,8 @@ const Avatar: FC<Props> = (props) => {
     iconKey,
     text,
     isSmallIcon,
+    isSolidIcon,
+    isBrandIcon,
     ...otherProps
   } = props;
 
@@ -168,7 +172,6 @@ const Avatar: FC<Props> = (props) => {
       // Anonymous user.
       printIcon = <Icon name="user-secret" className={styles.icon} />;
       styleOverrides.background = '#CACACA';
-      isBackground = true;
     } else {
       initials = generateInitials(seed);
     }
@@ -178,7 +181,14 @@ const Avatar: FC<Props> = (props) => {
     <div {...otherProps} className={rootClass} style={styleOverrides}>
       {imageTag}
       {!!initials && <span className={styles.text}>{initials}</span>}
-      {!!iconKey && <Icon name={iconKey} className={styles.icon} />}
+      {!!iconKey && (
+        <Icon
+          name={iconKey}
+          className={styles.icon}
+          isSolid={isSolidIcon}
+          isBrand={isBrandIcon}
+        />
+      )}
       {printIcon}
     </div>
   );
