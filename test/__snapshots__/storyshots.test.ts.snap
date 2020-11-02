@@ -106,7 +106,7 @@ exports[`Storyshots Avatar With Icon 1`] = `
       }
     >
       <i
-        className="fa fa-salesforce"
+        className="fab fa-salesforce"
       />
     </div>
   </div>
@@ -127,7 +127,7 @@ exports[`Storyshots Avatar With Icon 1`] = `
       }
     >
       <i
-        className="fa fa-magento"
+        className="fab fa-magento"
       />
     </div>
   </div>
@@ -190,7 +190,7 @@ exports[`Storyshots Avatar With Icon 1`] = `
       }
     >
       <i
-        className="fa fa-salesforce"
+        className="fab fa-salesforce"
       />
     </div>
   </div>
@@ -211,7 +211,7 @@ exports[`Storyshots Avatar With Icon 1`] = `
       }
     >
       <i
-        className="fa fa-magento"
+        className="fab fa-magento"
       />
     </div>
   </div>
