@@ -2,7 +2,7 @@ import React from 'react';
 import classnames from 'classnames';
 import '@fortawesome/fontawesome-free/css/all.css';
 
-interface Props {
+export interface Props {
   className?: Optional<string>;
   name: string;
   isSolid?: boolean;
