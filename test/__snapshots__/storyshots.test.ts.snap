@@ -445,12 +445,33 @@ exports[`Storyshots Avatar With User 1`] = `
       className=""
       style={Object {}}
     >
-      <img
-        alt="John Doe"
+      <div
         className=""
-        onError={[Function]}
-        onLoad={[Function]}
-      />
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onMouseMove={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "left": "0px",
+                "top": "0px",
+              }
+            }
+          >
+            John Doe
+          </div>
+          <img
+            alt="John Doe"
+            className=""
+            onError={[Function]}
+            onLoad={[Function]}
+          />
+        </div>
+      </div>
     </div>
   </div>
   <br />
@@ -472,6 +493,626 @@ exports[`Storyshots Avatar With User 1`] = `
       <span>
         JD
       </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Avatar with tooltip With Gradient Seed 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={
+            Object {
+              "background": "linear-gradient(315deg, rgb(55,105,230) 0%, rgb(179,164,244) 100%)",
+            }
+          }
+        >
+          <span>
+            KT
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "32px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={
+            Object {
+              "background": "linear-gradient(315deg, rgb(185,68,218) 0%, rgb(238,170,217) 100%)",
+            }
+          }
+        >
+          <span>
+            CC
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Avatar with tooltip With Icon 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={
+            Object {
+              "backgroundColor": "#5644D8",
+            }
+          }
+        >
+          <i
+            className="fa fa-paper-plane"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={
+            Object {
+              "backgroundColor": "#7BC4A9",
+            }
+          }
+        >
+          <i
+            className="fa fa-clock"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={
+            Object {
+              "backgroundColor": "#18a8d8",
+            }
+          }
+        >
+          <i
+            className="fab fa-salesforce"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={
+            Object {
+              "backgroundColor": "#c14800",
+            }
+          }
+        >
+          <i
+            className="fab fa-magento"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "32px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className="undefined"
+          style={
+            Object {
+              "backgroundColor": "#5644D8",
+            }
+          }
+        >
+          <i
+            className="fa fa-paper-plane"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "32px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className="undefined"
+          style={
+            Object {
+              "backgroundColor": "#7BC4A9",
+            }
+          }
+        >
+          <i
+            className="fa fa-clock"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "32px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className="undefined"
+          style={
+            Object {
+              "backgroundColor": "#18a8d8",
+            }
+          }
+        >
+          <i
+            className="fab fa-salesforce"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "32px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className="undefined"
+          style={
+            Object {
+              "backgroundColor": "#c14800",
+            }
+          }
+        >
+          <i
+            className="fab fa-magento"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Avatar with tooltip With Image 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <img
+            className=""
+            onError={[Function]}
+            onLoad={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <img
+            className=""
+            onError={[Function]}
+            onLoad={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Avatar with tooltip With User 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={Object {}}
+        >
+          <div
+            className=""
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onMouseMove={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "left": "0px",
+                    "top": "0px",
+                  }
+                }
+              >
+                John Doe
+              </div>
+              <img
+                alt="John Doe"
+                className=""
+                onError={[Function]}
+                onLoad={[Function]}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div
+    style={
+      Object {
+        "width": "45px",
+      }
+    }
+  >
+    <div
+      className=""
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseMove={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "left": "0px",
+              "top": "0px",
+            }
+          }
+        >
+          Friendly tooltip
+        </div>
+        <div
+          className=""
+          style={
+            Object {
+              "background": "linear-gradient(315deg, rgb(55,105,230) 0%, rgb(179,164,244) 100%)",
+            }
+          }
+        >
+          <span>
+            JD
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 </div>
