@@ -2,7 +2,7 @@ import React, { FC, useEffect, useState } from 'react';
 import classnames from 'classnames';
 import styles from './image.module.scss';
 
-interface Props {
+export interface Props {
   src: Src;
   className?: string;
   alt?: string;
