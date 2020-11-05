@@ -40,8 +40,8 @@ function withTooltip<P>(
       setTop(pageY - posTop - tooltipHeight - 4 - scrollY);
       setLeft(
         posLeftCalc > tooltipHalfWidth
-          ? posLeftCalc - tooltipHalfWidth + scrollX
-          : scrollX,
+          ? posLeftCalc - tooltipHalfWidth - scrollX
+          : 0,
       );
       setSelected(true);
     }
