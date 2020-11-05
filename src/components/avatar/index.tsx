@@ -4,7 +4,7 @@ import Icon from '../icon';
 import Image from '../image';
 import styles from './avatar.module.scss';
 
-interface Props {
+export interface Props {
   user?: Optional<User>;
   className?: Optional<string>;
   color?: string;
